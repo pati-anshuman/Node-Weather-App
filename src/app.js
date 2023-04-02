@@ -33,7 +33,6 @@ app.get('/help', (req, res) => {
         name: 'Anshuman Pati'
 
     })
-    
 })
 
 app.get('/about', (req, res) => {
