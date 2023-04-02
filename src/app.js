@@ -70,8 +70,6 @@ app.get('/weather',(req,res) => {
 })
 })
 
-
-
 app.get('/products',(req,res) => {
     if(!req.query.search){
         return res.send({
@@ -91,13 +89,6 @@ app.get('*',(req,res) => {
        error: 'Error! 404 '
     })
 })
-
-
-
-
-
-
-
 
 app.listen(3000, () => {
     console.log('Server is up on Port 3000')
